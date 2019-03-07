@@ -1,6 +1,6 @@
 Lighttpd & php7-fpm
 ===================
-Lighttpd server on Ubuntu linux.
+Lighttpd & php-fpm server on Ubuntu linux.
 
 ## Build using:
 `docker build -t lighttpd-php7 .`
