@@ -13,7 +13,7 @@ Lighttpd server on Ubuntu linux.
 ## Docker Compose:
 Add the following lines in an `docker-compose.yml` file:
 
-lighttpd:
+'lighttpd:
     container_name: lighttpd
     image: drova/lighttpd-php7
     ports:
@@ -23,3 +23,4 @@ lighttpd:
       - ./lighttpd/log:/var/log/lighttpd
       - ./php/php.ini:/etc/php/7.2/fpm/php.ini
       - ./lighttpd/lighttpd.conf:/etc/lighttpd/lighttpd.conf
+'
