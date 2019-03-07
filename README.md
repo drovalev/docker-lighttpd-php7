@@ -1,5 +1,5 @@
-Lighttpd & php7
-==============
+Lighttpd & php7-fpm
+===================
 Lighttpd server on Ubuntu linux.
 
 ## Build using:
