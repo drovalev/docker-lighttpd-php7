@@ -4,7 +4,7 @@ MAINTAINER  Roman Drovalev
 
 RUN  apt-get update && apt-get upgrade -y && \
 echo 5 | apt-get install -y tzdata && \
-apt-get install php-fpm php-mbstring php-xml php-mysql apt-transport-https lighttpd -y && \
+apt-get install php-fpm php-mbstring php-xml php-mysql apt-transport-https libterm-readline-gnu-perl lighttpd -y && \
 apt-get autoremove && apt-get clean && \
 lighttpd-enable-mod fastcgi && lighttpd-enable-mod fastcgi-php && \
 mkdir -p /run/php /var/run/lighttpd && touch /run/php/php7.2-fpm.sock && \
